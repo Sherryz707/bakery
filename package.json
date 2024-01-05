@@ -4,8 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon --harmony server.js",
+    "start": "SET NODE_ENV=production --harmony server.js",
     "start:prod": "SET NODE_ENV=production & nodemon server.js",
+    "dev": "nodemon --harmony server.js",
     "debug": "ndb server.js"
   },
   "author": "",
