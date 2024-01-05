@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "--harmony server.js",
+    "start": "server.js",
     "dev": "nodemon --harmony server.js",
     "debug": "ndb server.js"
   },
